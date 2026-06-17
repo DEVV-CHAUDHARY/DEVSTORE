@@ -178,3 +178,50 @@ filterButtons.forEach(button => {
     });
 
 });
+
+// ================= DARK MODE =================
+
+const darkBtn = document.getElementById("darkModeBtn");
+
+if(darkBtn){
+
+    darkBtn.addEventListener("click",function(){
+
+        document.body.classList.toggle("dark");
+
+        if(document.body.classList.contains("dark")){
+
+            this.innerHTML="☀️";
+
+        }else{
+
+            this.innerHTML="🌙";
+
+        }
+
+    });
+
+}
+// Mobile Menu
+
+const menuToggle=document.getElementById("menuToggle");
+
+const navLinks=document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click",()=>{
+
+navLinks.classList.toggle("active");
+
+if(navLinks.classList.contains("active")){
+
+menuToggle.innerHTML="✖";
+
+}
+
+else{
+
+menuToggle.innerHTML="☰";
+
+}
+
+});
