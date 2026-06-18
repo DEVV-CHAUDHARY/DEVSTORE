@@ -1104,4 +1104,19 @@ padding:8px 12px;
 }
 
 }
+.nav-links{
+
+z-index:9999;
+
+position:relative;
+
+}
+
+.nav-links a{
+
+pointer-events:auto;
+
+cursor:pointer;
+
+}
 
