@@ -35,6 +35,8 @@ header{
     justify-content:space-between;
     align-items:center;
     padding:18px 0;
+    position:relative;
+    z-index:9999;
 }
 
 .logo{
@@ -46,6 +48,8 @@ header{
 .nav-links{
     display:flex;
     list-style:none;
+    position:relative;
+    z-index:9999;
 }
 
 .nav-links li{
@@ -1103,14 +1107,7 @@ padding:8px 12px;
 
 }
 
-}
-.nav-links{
 
-z-index:9999;
-
-position:relative;
-
-}
 
 .nav-links a{
 
