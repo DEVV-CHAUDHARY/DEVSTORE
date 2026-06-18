@@ -202,29 +202,7 @@ if(darkBtn){
     });
 
 }
-// Mobile Menu
 
-const menuToggle=document.getElementById("menuToggle");
-
-const navLinks=document.querySelector(".nav-links");
-
-menuToggle.addEventListener("click",()=>{
-
-navLinks.classList.toggle("active");
-
-if(navLinks.classList.contains("active")){
-
-menuToggle.innerHTML="✖";
-
-}
-
-else{
-
-menuToggle.innerHTML="☰";
-
-}
-
-});
 const menu=document.getElementById("menuToggle");
 
 const nav=document.querySelector(".nav-links");
